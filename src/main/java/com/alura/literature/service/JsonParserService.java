@@ -1,8 +1,9 @@
 package com.alura.literature.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.stereotype.Service;
 
-
+@Service
 public class JsonParserService {
 
     private final ObjectMapper mapper = new ObjectMapper();
